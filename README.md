@@ -137,7 +137,30 @@ The project is currently most directly configured for macOS-style development, e
 
 ---
 
-## Installing Dependencies
+## Recommended Installation Method
+
+It is recommended to install the project using homebrew.
+
+Step 1: Tap the repository of your choice
+```bash
+brew tap link-coder100788/python-sdl2
+brew tap link-coder100788/ruby-sdl2
+brew tap link-coder100788/java-sdl2
+```
+
+Step 2: Install the project
+```bash
+brew install python-sdl2
+brew install ruby-sdl2
+brew install java-sdl2
+```
+
+The homebrew repositories can be found at:
+- [python-sdl2](https://github.com/link-coder100788/homebrew-python-sdl2)
+- [ruby-sdl2](https://github.com/link-coder100788/homebrew-ruby-sdl2)
+- [java-sdl2](https://github.com/link-coder100788/homebrew-java-sdl2)
+
+## Installing Dependencies & Building From Source
 
 ### macOS
 
